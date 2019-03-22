@@ -1,0 +1,19 @@
+cat /dev/input/event5>/mnt/sdcard/log/log
+
+https://blog.csdn.net/liu_zhen_wei/article/details/12559277
+0035(宽):1440
+0036(高):2560
+
+华为 1920*1080分辨率
+
+rateW = 1080/1440 = 0.75
+rateH = 1920/2560 = 0.75
+
+example:
+/dev/input/event5: 0003 0035 00000339
+/dev/input/event5: 0003 0036 0000046f
+(825,1135)
+转换后为
+(618.75,851.25)
+
+

@@ -1,0 +1,7 @@
+cd Touchscreen_wk
+bash init.sh
+bash loop.sh #(times)
+bash result.sh 
+
+adb tcpip 5555
+adb connect ip
