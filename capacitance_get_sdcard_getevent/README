@@ -1,0 +1,14 @@
+cd Touchscreen_wk
+bash init.sh
+bash loop.sh #(times)
+bash result.sh 
+
+#wifi连接adb
+adb tcpip 5555
+adb connect ip
+
+#getevent.sh获取触摸位置数据
+#trans2pos.py转换成屏幕像素坐标，作图
+
+#loop循环获取各点电容值，先存在sdcard中，再提取至record/data中
+#result_sub.sh 批处理结果
